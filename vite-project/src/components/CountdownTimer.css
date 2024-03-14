@@ -1,0 +1,50 @@
+/*.countdown-timer {
+    width: 600px;
+    height: 100px;
+    border: 2px solid black;
+
+    font-family: "Oswald";
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-timer span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.two-numbers {
+    width: 2ch;
+*/
+.countdown-timer {
+    width: 600px;
+    height: 100px;
+
+    background-color: rgb(6, 6, 175);
+    font-family: "Oswald";
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    position: absolute;
+    top: 6rem;
+    font-weight: medium;
+}
+
+.countdown-timer span {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.two-numbers {
+    width: 2ch;
+    color: white;
+
+}
